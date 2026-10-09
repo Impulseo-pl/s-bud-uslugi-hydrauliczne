@@ -19,105 +19,139 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=97920a86">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261009">
+<meta name="theme-color" content="#ede9e2">
 </head>
-<body>
-
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">S-BUD Usługi Hydrauliczne</span><span class="sub">Wieruszów</span></a>
-    <nav class="nav-links">
-      <a href="oferta.html">Oferta</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html" class="active" aria-current="page">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48723480577" class="btn btn-accent">Zadzwoń +48 723 480 577</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
+<body class="kl">
+<header class="kl-top">
+  <a class="kl-brand" href="index.html" aria-label="S-BUD Usługi Hydrauliczne - strona główna"><b>S-BUD</b><i class="kl-brand-sep" aria-hidden="true"></i><small>Usługi<br>hydrauliczne</small></a>
+  <a class="kl-toptel" href="tel:+48723480577">+48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 </header>
+<button class="kl-burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="kl-menu"><i></i><i></i></button>
+<div class="kl-menu" id="kl-menu" hidden>
+  <div class="kl-menu-in">
+    <nav class="kl-menu-nav">
+      <a href="index.html"><span>Strona główna</span></a>
+      <a href="oferta.html"><span>Oferta</span></a>
+      <a href="realizacje.html"><span>Realizacje</span></a>
+      <a href="o-nas.html" class="active" aria-current="page"><span>O nas</span></a>
+      <a href="kontakt.html"><span>Kontakt</span></a>
+    </nav>
+    <div class="kl-menu-side">
+      <p class="kl-lbl">Kontakt</p>
+      <a href="tel:+48723480577">+48 723 480 577</a>
+      <p>Teklinów 32, 98-400 Teklinów</p>
+      <p>Pon.-pt. 7:00-21:00</p>
+      <p>Wieruszów i&nbsp;okolice</p>
+      <a class="kl-pill kl-pill-light" href="tel:+48723480577">Zadzwoń</a>
+    </div>
+  </div>
+</div>
 
 <main>
-<section class="pagehead">
-  <img src="img/ph-o-nas.jpg" alt="S-BUD Usługi Hydrauliczne - instalacje grzewcze i wodne" width="1880" height="1255" decoding="async">
-  <div class="wrap">
-    <span class="eyebrow">O nas</span>
-    <h1>Poznaj firmę</h1>
-    <p>Awarie wodne, remonty łazienek, wymiana kotłów - od 13 lat w Wieruszowie. Cenę znasz przed robotą, nie po.</p>
+<section class="kl-hero kl-hero-sub">
+  <div class="kl-hero-copy">
+    <p class="kl-lbl">Poznaj S-BUD</p>
+    <h1>Kto przyjedzie</h1>
+    <p class="kl-lead">Usługi hydrauliczne z&nbsp;Teklinowa pod Wieruszowem. Od 13 lat przyjeżdżam do awarii, robię instalacje i&nbsp;montuję łazienki.</p>
   </div>
+  <div class="kl-hero-art"><img src="img/r2.jpg" alt="Łazienka w białym marmurze z kabiną prysznicową" fetchpriority="high" width="1880" height="1255" decoding="async"></div>
 </section>
-<section>
-  <div class="wrap split">
-    <div class="split-art reveal"><img src="img/g1.jpg" alt="S-BUD Usługi Hydrauliczne - kotłownia z pompą ciepła" loading="lazy" width="1080" height="1406" decoding="async"></div>
-    <div class="split-copy reveal">
-      <span class="eyebrow">Kim jesteśmy</span>
-      <h2>Kto przyjedzie</h2>
-      <p class="muted">Hydrauliką zajmuję się od 13 lat i widziałem już chyba wszystko: od kranu, który kapał komuś do szafki przez pół roku, po pękniętą rurę w Wigilię. Jeżdżę z pełnym wyposażeniem, więc większość napraw kończę na miejscu, za jednym razem.</p>
-      <p class="muted">Po robocie zostaje działająca instalacja i jasny rachunek.</p>
-      <p class="muted">Firma działa od 2013 roku. Robię instalacje wodno-kanalizacyjne, grzewcze, gazowe i klimatyzację, montuję armaturę i przyjeżdżam do awarii. Pracuję głównie w województwie łódzkim. W listopadzie 2025 roku firmę pozytywnie zweryfikował program Firma Godna Zaufania.</p>
+
+<section class="kl-dark kl-what">
+  <div class="wrap kl-wrap">
+    <div class="kl-what-top reveal">
+      <p class="kl-vert">Moja historia</p>
+      <p class="kl-what-txt">Hydrauliką zajmuję się od 13 lat i&nbsp;widziałem już chyba wszystko: od kranu, który kapał komuś do szafki przez pół roku, po pękniętą rurę w&nbsp;Wigilię. Jeżdżę z&nbsp;pełnym wyposażeniem, więc większość napraw kończę na miejscu, za jednym razem. Po robocie zostaje działająca instalacja i&nbsp;jasny rachunek.</p>
+    </div>
+    <div class="kl-what-pics">
+      <div class="kl-what-a reveal"><span class="kl-ph"><img src="img/g1.jpg" alt="Kotłownia z pompą ciepła i zasobnikiem - zdjęcie z wizytówki Google firmy" width="1080" height="1406" decoding="async"></span><span class="kl-cap">Kotłownia z&nbsp;pompą ciepła</span><span class="kl-sub">Zdjęcie z&nbsp;wizytówki Google.</span></div>
+      <div class="kl-what-b reveal"><span class="kl-ph"><img src="img/g2.jpg" alt="Wodomierz na instalacji - zdjęcie z wizytówki Google firmy" width="1600" height="1200" decoding="async"></span><span class="kl-cap">Wodomierz na instalacji</span><span class="kl-sub">Też z&nbsp;wizytówki Google.</span></div>
     </div>
   </div>
 </section>
 
+<section class="kl-dark kl-vals" style="padding-top:0">
+  <div class="wrap kl-wrap">
+    <p class="kl-lbl reveal">Na czym mi zależy</p>
+    <div class="kl-vals-grid">
+      <div class="kl-val reveal"><div class="kl-val-img"><img src="img/g5.jpg" alt="Łazienka z kabiną narożną i grzejnikiem na ręczniki" loading="lazy" width="1880" height="1255" decoding="async"></div><h3>Cena przed robotą</h3><p>Zanim wyjmę narzędzia, wiesz, ile zapłacisz. Jak w&nbsp;trakcie wyjdzie coś nowego, najpierw rozmawiamy.</p></div>
+      <div class="kl-val reveal"><div class="kl-val-img"><img src="img/g3.jpg" alt="Rozdzielacz instalacji grzewczej z manometrami" loading="lazy" width="1880" height="1251" decoding="async"></div><h3>Naprawa za jednym razem</h3><p>Jeżdżę z&nbsp;pełnym wyposażeniem, więc większość napraw kończę na miejscu, bez drugiego przyjazdu.</p></div>
+      <div class="kl-val reveal"><div class="kl-val-img"><img src="img/g4.jpg" alt="Łazienka z kabiną walk-in i podwieszaną miską" loading="lazy" width="1857" height="1300" decoding="async"></div><h3>Stare części na widoku</h3><p>Pokazuję, co było zużyte i&nbsp;co wymieniłem. Nic nie znika po cichu w&nbsp;worku.</p></div>
+      <div class="kl-val reveal"><div class="kl-val-img"><img src="img/g9.jpg" alt="Łazienka z wanną wolnostojącą i podświetlanym podestem" loading="lazy" width="1600" height="1068" decoding="async"></div><h3>Gwarancja na robociznę</h3><p>Jak coś nie gra, wracam i&nbsp;sprawdzam. Moja wina - poprawiam za darmo.</p></div>
+    </div>
+  </div>
+</section>
 
-<section class="odznaki">
-  <div class="wrap">
-    <ul class="odz-row">
-      <li class="odz reveal"><img src="img/odznaka-1.png" alt="Firma Godna Zaufania 2020" loading="lazy" decoding="async" width="154" height="141"></li>
-      <li class="odz reveal"><img src="img/odznaka-2.png" alt="Firma Godna Zaufania Elite Gold 2019" loading="lazy" decoding="async" width="154" height="161"></li>
+<section class="kl-beige kl-about">
+  <div class="wrap kl-wrap kl-about-in">
+    <p class="kl-lbl reveal">Firma</p>
+    <h2 class="kl-h2c reveal">Instalacje wodne, grzewcze i&nbsp;gazowe w&nbsp;województwie łódzkim.</h2>
+    <p class="reveal">Firma działa od 2013. Robię instalacje wodno-kanalizacyjne, grzewcze, gazowe i&nbsp;klimatyzację, montuję armaturę i&nbsp;przyjeżdżam do awarii. Pracuję głównie w&nbsp;województwie łódzkim. W&nbsp;listopadzie 2025 roku firmę pozytywnie zweryfikował program Firma Godna Zaufania.</p>
+    <p class="reveal">W Google mam ocenę 5,0 z&nbsp;6 opinii. Klienci piszą o&nbsp;tym, że wszystko wytłumaczyłem i&nbsp;zrobiłem od A&nbsp;do Z.</p>
+    <div class="kl-center reveal"><a class="kl-pill" href="realizacje.html">Zobacz realizacje</a></div>
+  </div>
+</section>
+
+<section class="stopklatka" aria-hidden="true">
+  <div class="stk-bg" style="background-image:url(img/ph-oferta.jpg)"></div>
+</section>
+
+<section class="kl-dark kl-cta kl-cta-badges">
+  <div class="wrap kl-wrap">
+    <ul class="kl-badges reveal">
+      <li class="odz kl-badge"><img src="img/odznaka-1.png" alt="Firma Godna Zaufania 2020" loading="lazy" decoding="async" width="154" height="141"></li>
+      <li class="odz kl-badge"><img src="img/odznaka-2.png" alt="Firma Godna Zaufania Elite Gold 2019" loading="lazy" decoding="async" width="154" height="161"></li>
     </ul>
   </div>
 </section>
-
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Masz robotę do zrobienia? Zapytaj o wycenę</h2>
-      <p>Bez zobowiązań - opowiedz, co trzeba zrobić, a my podpowiemy jak i wycenimy.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48723480577" class="btn btn-ghost btn-ghost-cta">+48 723 480 577</a>
+<section class="kl-dark kl-cta">
+  <div class="wrap kl-wrap">
+    <p class="kl-lbl reveal">Działajmy razem</p>
+    <a class="kl-bigtel reveal" href="tel:+48723480577">723 480 577</a>
+    <div class="kl-cta-act reveal">
+      <a class="kl-pill kl-pill-light" href="tel:+48723480577">Zadzwoń teraz</a>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">S-BUD Usługi Hydrauliczne</div>
-        <p>Awarie wodne, remonty łazienek, wymiana kotłów - od 13 lat w Wieruszowie. Cenę znasz przed robotą, nie po.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+<footer class="kl-foot">
+  <div class="wrap kl-wrap">
+    <div class="kl-foot-top">
+      <div class="kl-foot-links">
+        <a href="tel:+48723480577">+48 723 480 577</a>
+        <a href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Wieruszów i&nbsp;okolice</a>
+        <a href="index.html">Strona główna</a>
         <a href="oferta.html">Oferta</a>
         <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48723480577">+48 723 480 577</a>
-        <p>Teklinów 32, 98-400 Teklinów</p>
-        <a href="https://maps.google.com/?cid=9906975957184457885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://maps.google.com/?cid=9906975957184457885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - S-BUD Usługi Hydrauliczne"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
+      <div class="kl-foot-soc">
+        <div><a href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Google <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>Ocena 5,0, 6 opinii</span></div>
+        <div><a href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Dojazd <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>Teklinów 32, 98-400 Teklinów</span></div>
+        <div class="foot-soc"><a class="soc" href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - S-BUD Usługi Hydrauliczne"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a></div>
       </div>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 S-BUD Usługi Hydrauliczne</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
+    <div class="kl-foot-mid">
+      <a class="kl-foot-brand" href="index.html"><b>S-BUD</b><small>Usługi hydrauliczne</small></a>
+      <div class="kl-foot-cta">
+        <p class="kl-foot-big">Cieknie? Zakręć zawór i&nbsp;dzwoń.</p>
+        <a class="kl-link" href="tel:+48723480577">+48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <div class="kl-foot-bot">
+      <p>Teklinów 32,<br>98-400 Teklinów<br>Pon.-pt. 7:00-21:00</p>
+      <p>© 2026 S-BUD Usługi Hydrauliczne<br>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></p>
     </div>
   </div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48723480577"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zadzwoń: +48 723 480 577</a></div>
+<div class="sticky-call"><a class="sc-call" href="tel:+48723480577"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zapytaj o&nbsp;wycenę</a></div>
 <div class="demo-wazne" data-do="2026-10-07" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
 <script src="assets/main.js"></script>
+<script src="assets/kl.js?v=20261009"></script>
 </body>
 </html>

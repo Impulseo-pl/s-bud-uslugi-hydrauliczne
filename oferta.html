@@ -19,134 +19,182 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=97920a86">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261009">
+<meta name="theme-color" content="#ede9e2">
 </head>
-<body>
-
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">S-BUD Usługi Hydrauliczne</span><span class="sub">Wieruszów</span></a>
-    <nav class="nav-links">
-      <a href="oferta.html" class="active" aria-current="page">Oferta</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48723480577" class="btn btn-accent">Zadzwoń +48 723 480 577</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
+<body class="kl">
+<header class="kl-top">
+  <a class="kl-brand" href="index.html" aria-label="S-BUD Usługi Hydrauliczne - strona główna"><b>S-BUD</b><i class="kl-brand-sep" aria-hidden="true"></i><small>Usługi<br>hydrauliczne</small></a>
+  <a class="kl-toptel" href="tel:+48723480577">+48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 </header>
+<button class="kl-burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="kl-menu"><i></i><i></i></button>
+<div class="kl-menu" id="kl-menu" hidden>
+  <div class="kl-menu-in">
+    <nav class="kl-menu-nav">
+      <a href="index.html"><span>Strona główna</span></a>
+      <a href="oferta.html" class="active" aria-current="page"><span>Oferta</span></a>
+      <a href="realizacje.html"><span>Realizacje</span></a>
+      <a href="o-nas.html"><span>O nas</span></a>
+      <a href="kontakt.html"><span>Kontakt</span></a>
+    </nav>
+    <div class="kl-menu-side">
+      <p class="kl-lbl">Kontakt</p>
+      <a href="tel:+48723480577">+48 723 480 577</a>
+      <p>Teklinów 32, 98-400 Teklinów</p>
+      <p>Pon.-pt. 7:00-21:00</p>
+      <p>Wieruszów i&nbsp;okolice</p>
+      <a class="kl-pill kl-pill-light" href="tel:+48723480577">Zadzwoń</a>
+    </div>
+  </div>
+</div>
 
 <main>
-<section class="pagehead">
-  <img src="img/ph-oferta.jpg" alt="S-BUD Usługi Hydrauliczne - Zakres prac" width="1880" height="1255" decoding="async">
-  <div class="wrap">
-    <span class="eyebrow">Oferta</span>
+<section class="kl-hero kl-hero-sub">
+  <div class="kl-hero-copy">
+    <p class="kl-lbl">Usługi hydrauliczne</p>
     <h1>Zakres robót</h1>
+    <p class="kl-lead">Awarie, udrażnianie, kotły, instalacje wod-kan, łazienki i&nbsp;ogrzewanie. Wieruszów i&nbsp;okolice, wycena bez opłat.</p>
+  </div>
+  <div class="kl-hero-art"><img src="img/ph-oferta.jpg" alt="Łazienka z kabiną prysznicową ze szkła i podwieszaną miską" fetchpriority="high" width="1880" height="1255" decoding="async"></div>
+</section>
+
+<section class="kl-beige kl-rows">
+  <div class="wrap kl-wrap">
+    <article class="kl-row reveal">
+      <div class="kl-row-img"><img src="img/about.jpg" alt="Dokręcanie złączki na rurze kluczem" width="1880" height="1253" decoding="async"></div>
+      <div class="kl-row-txt">
+        <span class="kl-num">01</span>
+        <h2>Awarie i&nbsp;przecieki</h2>
+        <p>Woda leje się tam, gdzie nie powinna? Zakręć główny zawór i&nbsp;dzwoń. Przyjeżdżam z&nbsp;narzędziami i&nbsp;częściami na większość przypadków, znajduję przyczynę i&nbsp;naprawiam to, co faktycznie puściło - nie zaklejam objawów. Zanim wyjdę, sprawdzam, czy jest sucho. Dopiero wtedy koniec roboty.</p>
+        <a class="kl-link" href="tel:+48723480577">Zapytaj o&nbsp;wycenę: +48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </article>
+    <article class="kl-row kl-row-rev reveal">
+      <div class="kl-row-img"><img src="img/g12.jpg" alt="Umywalka z czarną baterią" width="1600" height="1066" decoding="async"></div>
+      <div class="kl-row-txt">
+        <span class="kl-num">02</span>
+        <h2>Udrażnianie rur i&nbsp;kanalizacji</h2>
+        <p>Woda schodzi coraz wolniej albo cofa się w&nbsp;odpływie? Samo się nie odetka, a&nbsp;im dłużej czekasz, tym bliżej zalania. Udrażniam odpływy, piony i&nbsp;kanalizację - sprężyną albo ciśnieniem, zależnie od tego, co siedzi w&nbsp;rurze. Po robocie mówię, skąd wziął się zator i&nbsp;jak nie hodować następnego.</p>
+        <a class="kl-link" href="tel:+48723480577">Zapytaj o&nbsp;wycenę: +48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </article>
+    <article class="kl-row reveal">
+      <div class="kl-row-img"><img src="img/g7.jpg" alt="Kotłownia z pompą ciepła i zasobnikami" loading="lazy" width="1880" height="1253" decoding="async"></div>
+      <div class="kl-row-txt">
+        <span class="kl-num">03</span>
+        <h2>Wymiana i&nbsp;montaż kotłów</h2>
+        <p>Stary kocioł bierze coraz więcej gazu albo wysiada w&nbsp;największy mróz? Wymieniam kotły na kondensacyjne i&nbsp;podłączam je tak, żeby odbiór przeszedł bez poprawek. Doradzę model, który ma sens przy Twoim metrażu - a&nbsp;nie ten, na którym najwięcej się zarabia.</p>
+        <a class="kl-link" href="tel:+48723480577">Zapytaj o&nbsp;wycenę: +48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </article>
+    <article class="kl-row kl-row-rev reveal">
+      <div class="kl-row-img"><img src="img/g6.jpg" alt="Łazienka z kabiną, umywalką i podwieszanym WC" loading="lazy" width="1880" height="1255" decoding="async"></div>
+      <div class="kl-row-txt">
+        <span class="kl-num">04</span>
+        <h2>Instalacje wod-kan</h2>
+        <p>Budujesz dom albo robisz generalny remont? Rozprowadzam wodę i&nbsp;kanalizację od podstaw: podejścia, piony i&nbsp;próba szczelności pod ciśnieniem, zanim cokolwiek zniknie pod płytkami. Z&nbsp;ekipą wykończeniową dogaduję się sam, żeby glazurnik nie czekał na hydraulika. Ty dostajesz instalację, o&nbsp;której zapomnisz na lata.</p>
+        <a class="kl-link" href="tel:+48723480577">Zapytaj o&nbsp;wycenę: +48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </article>
+    <article class="kl-row reveal">
+      <div class="kl-row-img"><img src="img/g10.jpg" alt="Łazienka z wanną wolnostojącą i kabiną" loading="lazy" width="1507" height="1300" decoding="async"></div>
+      <div class="kl-row-txt">
+        <span class="kl-num">05</span>
+        <h2>Montaż łazienek</h2>
+        <p>Remont łazienki stanął na ostatniej prostej? Robię biały montaż od baterii po pralkę i&nbsp;sprawdzam każde połączenie, zanim zamknę za sobą drzwi. Stare wyposażenie zabieram od razu, chyba że chcesz je zatrzymać. Termin ustawiam tak, żeby nie blokować innych ekip.</p>
+        <a class="kl-link" href="tel:+48723480577">Zapytaj o&nbsp;wycenę: +48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </article>
+    <article class="kl-row kl-row-rev reveal">
+      <div class="kl-row-img"><img src="img/g3.jpg" alt="Rozdzielacz instalacji grzewczej z manometrami" loading="lazy" width="1880" height="1251" decoding="async"></div>
+      <div class="kl-row-txt">
+        <span class="kl-num">06</span>
+        <h2>Centralne ogrzewanie i&nbsp;grzejniki</h2>
+        <p>Grzejniki grzeją nierówno, bulgoczą albo nie łapią temperatury? Płuczę i&nbsp;odpowietrzam instalacje, wymieniam grzejniki i&nbsp;głowice, ustawiam ogrzewanie tak, żeby grzało równo w&nbsp;całym domu, a&nbsp;nie głównie przy kotle. Różnicę czuć pierwszej zimy - i&nbsp;w&nbsp;pokojach, i&nbsp;na rachunku.</p>
+        <a class="kl-link" href="tel:+48723480577">Zapytaj o&nbsp;wycenę: +48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </article>
   </div>
 </section>
-<section>
-  <div class="wrap">
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g12.jpg" alt="Awarie i przecieki" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div>
-        <span class="num">01</span>
-        <h3>Awarie i przecieki</h3>
-        <p class="muted">Woda leje się tam, gdzie nie powinna? Zakręć główny zawór i dzwoń. Przyjeżdżam z narzędziami i częściami na większość przypadków, znajduję przyczynę i naprawiam to, co faktycznie puściło - nie zaklejam objawów. Zanim wyjdę, sprawdzam, czy jest sucho. Dopiero wtedy koniec roboty.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g7.jpg" alt="Udrażnianie rur i kanalizacji" loading="lazy" width="1880" height="1253" decoding="async"></div>
-      <div>
-        <span class="num">02</span>
-        <h3>Udrażnianie rur i kanalizacji</h3>
-        <p class="muted">Woda schodzi coraz wolniej albo cofa się w odpływie? Samo się nie odetka, a im dłużej czekasz, tym bliżej zalania. Udrażniam odpływy, piony i kanalizację - sprężyną albo ciśnieniem, zależnie od tego, co siedzi w rurze. Po robocie mówię, skąd wziął się zator i jak nie hodować następnego.</p>
-      </div>
-    </div>
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g8.jpg" alt="Wymiana i montaż kotłów" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div>
-        <span class="num">03</span>
-        <h3>Wymiana i montaż kotłów</h3>
-        <p class="muted">Stary kocioł bierze coraz więcej gazu albo wysiada w największy mróz? Wymieniam kotły na kondensacyjne i podłączam je tak, żeby odbiór przeszedł bez poprawek. Doradzę model, który ma sens przy Twoim metrażu - a nie ten, na którym najwięcej się zarabia.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g9.jpg" alt="Instalacje wod-kan" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div>
-        <span class="num">04</span>
-        <h3>Instalacje wod-kan</h3>
-        <p class="muted">Budujesz dom albo robisz generalny remont? Rozprowadzam wodę i kanalizację od podstaw: podejścia, piony i próba szczelności pod ciśnieniem, zanim cokolwiek zniknie pod płytkami. Z ekipą wykończeniową dogaduję się sam, żeby glazurnik nie czekał na hydraulika. Ty dostajesz instalację, o której zapomnisz na lata.</p>
-      </div>
-    </div>
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g10.jpg" alt="Montaż łazienek" loading="lazy" width="1507" height="1300" decoding="async"></div>
-      <div>
-        <span class="num">05</span>
-        <h3>Montaż łazienek</h3>
-        <p class="muted">Remont łazienki stanął na ostatniej prostej? Robię biały montaż od baterii po pralkę i sprawdzam każde połączenie, zanim zamknę za sobą drzwi. Stare wyposażenie zabieram od razu, chyba że chcesz je zatrzymać. Termin ustawiam tak, żeby nie blokować innych ekip.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g11.jpg" alt="Centralne ogrzewanie i grzejniki" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div>
-        <span class="num">06</span>
-        <h3>Centralne ogrzewanie i grzejniki</h3>
-        <p class="muted">Grzejniki grzeją nierówno, bulgoczą albo nie łapią temperatury? Płuczę i odpowietrzam instalacje, wymieniam grzejniki i głowice, ustawiam ogrzewanie tak, żeby grzało równo w całym domu, a nie głównie przy kotle. Różnicę czuć pierwszej zimy - i w pokojach, i na rachunku.</p>
-      </div>
+
+<section class="kl-beige kl-steps-sec kl-steps-b">
+  <div class="wrap kl-wrap">
+    <h2 class="kl-giant reveal">Jak pracuję</h2>
+    <div class="kl-steps">
+      <div class="kl-step reveal"><b>01</b><h3>Dzwonisz</h3><p>Telefon albo zdjęcie awarii. Po minucie rozmowy wiesz, czy przyjadę i&nbsp;kiedy.</p></div>
+      <div class="kl-step reveal"><b>02</b><h3>Znasz cenę</h3><p>Zanim wyjmę narzędzia, wiesz, ile zapłacisz. Jak w&nbsp;trakcie wyjdzie coś nowego, najpierw rozmawiamy - potem robię.</p></div>
+      <div class="kl-step reveal"><b>03</b><h3>Robota</h3><p>Stare części pokazuję, nie wyrzucam po cichu - widzisz, co było zużyte i&nbsp;co wymieniłem.</p></div>
+      <div class="kl-step reveal"><b>04</b><h3>Odbiór i&nbsp;gwarancja</h3><p>Na wykonaną robotę dostajesz gwarancję i&nbsp;jasny rachunek - jak coś nie gra, wracam i&nbsp;poprawiam.</p></div>
     </div>
   </div>
 </section>
 
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Która z usług Cię interesuje?</h2>
-      <p>Napisz, co chcesz zrobić - odpowiemy z propozycją i wyceną.</p>
+<section class="kl-dark kl-price">
+  <div class="wrap kl-wrap">
+    <div class="kl-price-in">
+      <div class="reveal">
+        <p class="kl-lbl">Wycena i&nbsp;dojazd</p>
+        <h2>Cenę znasz przed robotą, nie po.</h2>
+      </div>
+      <div class="kl-price-txt reveal">
+        <p>Za obejrzenie i&nbsp;wycenę nie biorę pieniędzy. Przez telefon wypytuję, co się dzieje, i&nbsp;od razu podaję widełki - ostateczną cenę znasz, zanim zacznę.</p>
+        <p>Dojeżdżam do Wieruszowa i&nbsp;okolicznych miejscowości, a&nbsp;przy większej robocie dalej. Pracuję głównie w&nbsp;województwie łódzkim. Faktura VAT albo paragon, jak wolisz.</p>
+      </div>
     </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48723480577" class="btn btn-ghost btn-ghost-cta">+48 723 480 577</a>
+    <ul class="kl-badges reveal">
+      <li class="odz kl-badge"><img src="img/odznaka-1.png" alt="Firma Godna Zaufania 2020" loading="lazy" decoding="async" width="154" height="141"></li>
+      <li class="odz kl-badge"><img src="img/odznaka-2.png" alt="Firma Godna Zaufania Elite Gold 2019" loading="lazy" decoding="async" width="154" height="161"></li>
+    </ul>
+  </div>
+</section>
+
+<section class="kl-dark kl-cta">
+  <div class="wrap kl-wrap">
+    <p class="kl-lbl reveal">Działajmy razem</p>
+    <a class="kl-bigtel reveal" href="tel:+48723480577">723 480 577</a>
+    <div class="kl-cta-act reveal">
+      <a class="kl-pill kl-pill-light" href="tel:+48723480577">Zadzwoń teraz</a>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">S-BUD Usługi Hydrauliczne</div>
-        <p>Awarie wodne, remonty łazienek, wymiana kotłów - od 13 lat w Wieruszowie. Cenę znasz przed robotą, nie po.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+<footer class="kl-foot">
+  <div class="wrap kl-wrap">
+    <div class="kl-foot-top">
+      <div class="kl-foot-links">
+        <a href="tel:+48723480577">+48 723 480 577</a>
+        <a href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Wieruszów i&nbsp;okolice</a>
+        <a href="index.html">Strona główna</a>
         <a href="oferta.html">Oferta</a>
         <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48723480577">+48 723 480 577</a>
-        <p>Teklinów 32, 98-400 Teklinów</p>
-        <a href="https://maps.google.com/?cid=9906975957184457885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://maps.google.com/?cid=9906975957184457885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - S-BUD Usługi Hydrauliczne"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
+      <div class="kl-foot-soc">
+        <div><a href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Google <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>Ocena 5,0, 6 opinii</span></div>
+        <div><a href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">Dojazd <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>Teklinów 32, 98-400 Teklinów</span></div>
+        <div class="foot-soc"><a class="soc" href="https://maps.google.com/?cid=9906975957184457885&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener" aria-label="Google - S-BUD Usługi Hydrauliczne"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a></div>
       </div>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 S-BUD Usługi Hydrauliczne</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
+    <div class="kl-foot-mid">
+      <a class="kl-foot-brand" href="index.html"><b>S-BUD</b><small>Usługi hydrauliczne</small></a>
+      <div class="kl-foot-cta">
+        <p class="kl-foot-big">Cieknie? Zakręć zawór i&nbsp;dzwoń.</p>
+        <a class="kl-link" href="tel:+48723480577">+48 723 480 577 <svg class="kl-arr" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M1 5h13M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <div class="kl-foot-bot">
+      <p>Teklinów 32,<br>98-400 Teklinów<br>Pon.-pt. 7:00-21:00</p>
+      <p>© 2026 S-BUD Usługi Hydrauliczne<br>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></p>
     </div>
   </div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48723480577"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zadzwoń: +48 723 480 577</a></div>
+<div class="sticky-call"><a class="sc-call" href="tel:+48723480577"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zapytaj o&nbsp;wycenę</a></div>
 <div class="demo-wazne" data-do="2026-10-07" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
 <script src="assets/main.js"></script>
+<script src="assets/kl.js?v=20261009"></script>
 </body>
 </html>
